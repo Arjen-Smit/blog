@@ -1,0 +1,29 @@
+$theme-violet: rgb(199, 21, 133);
+$theme-green: rgb(0,210,84);
+$theme-orange: rgb(255,102,0);
+
+@mixin theme-setting($color: $theme-violet) {
+	h1 {
+		background-color: $color;
+	}
+	h2 {
+		color: $color;
+	}
+	a {
+		color: $color;
+	}
+}
+
+.post {
+	&.violet {
+		@include theme-setting($theme-violet);
+	}
+
+	&.green {
+		@include theme-setting($theme-green);
+	}
+
+	&.orange {
+		@include theme-setting($theme-orange);	
+	}
+}

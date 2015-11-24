@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction!"
 date:   2015-11-07 21:25:14
-categories: jekyll update
+theme:	green
 ---
 Yesterday at work I was thinking how cool it would be to have my own blog. To be honest this thought has crossed my mind more than once and I even started on some of them to get caught up in the process of building a backend system. So this time I decided to turn the process around and start by writing a first post instead of a system to write a post in. As this leaves me without a blog but with the content required to fill a blog the subject of this blog was easy to pick, I’m going to write a blog about building a blog.
 

@@ -162,7 +162,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
 }
 
 .page-heading {
@@ -198,12 +198,15 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 100px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 300px;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 70px;
+    }
+    @include media-query($on-palm) {
+        font-size: 52px;
     }
 }
 

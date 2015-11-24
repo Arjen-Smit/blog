@@ -85,9 +85,13 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-    line-height: 46px;
-    font-size: 43px;
+    line-height: 300px;
+    font-size: 100px;
     margin: 0 0 23px 0;
+    text-align: center;
+
+    color: white;
+    background-color: $header-color;
     }
 h2 {
     font-family: 'Cantarell', sans-serif;
@@ -175,7 +179,7 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+.center {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -191,7 +195,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**
