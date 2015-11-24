@@ -166,6 +166,7 @@
 }
 
 .page-heading {
+    margin-top: 50px;
     font-size: 20px;
 }
 
@@ -201,6 +202,8 @@
     font-size: 100px;
     letter-spacing: -1px;
     line-height: 300px;
+    color: white;
+    text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 70px;

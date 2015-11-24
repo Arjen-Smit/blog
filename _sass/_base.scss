@@ -85,13 +85,9 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
-    line-height: 300px;
+    line-height: 1;
     font-size: 100px;
     margin: 0 0 23px 0;
-    text-align: center;
-
-    color: white;
-    background-color: $header-color;
     }
 h2 {
     font-family: 'Cantarell', sans-serif;
@@ -101,7 +97,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: -1px;
     margin: 50px 0 23px 0;
-    color: $header-color;
     }
 p {
     font-family: 'Cantarell', sans-serif;
